@@ -97,29 +97,36 @@
 
         <div class="products">
             <div class="product">
-                <img src="vegetable1.jpg" alt="Vegetable 1">
+                <img src="images/tomato.jpg" alt="Tomato">
                 <p>Fresh Organic Tomato</p>
                 <button>Add to Cart</button>
             </div>
 
             <div class="product">
-                <img src="vegetable2.jpg" alt="Vegetable 2">
-                <p>Crispy Lettuce</p>
+                <img src="images/onion.jpg" alt="Onion">
+                <p>Onion</p>
                 <button>Add to Cart</button>
             </div>
 
             <div class="product">
-                <img src="grocery1.jpg" alt="Grocery 1">
-                <p>Whole Grain Rice</p>
+                <img src="images/grocery.jpg" alt="Grocery ">
+                <p>Grocery</p>
                 <button>Add to Cart</button>
             </div>
 
             <div class="product">
-                <img src="grocery2.jpg" alt="Grocery 2">
+                <img src="images/olive oil.jpg" alt="Organic Olive Oil">
                 <p>Organic Olive Oil</p>
                 <button>Add to Cart</button>
             </div>
         </div>
+ </div>
+
+    <section class="main-content">
+        
+
+        <https://maps.app.goo.gl/FaPHxTjpZKDs3nXU9>
+        <p>Visit us on Google Maps: <a href="https://www.google.com/maps/place/Dodda+dunnasandra,+N+krishna+reddy+layout+via,+govt+school+road,+Bengaluru,+Karnataka+560067" target="_blank">View on Google Maps</a></p>
     </section>
 
     <footer>
