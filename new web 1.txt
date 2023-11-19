@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #ddd;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #bbb;
+        }
+
+        .cart {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        .cart img {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+    <title>Hrithik Stores</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hrithik Stores</h1>
+    </header>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Vegetables</a>
+        <a href="#">Groceries</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <section class="main-content">
+        <div class="cart">
+            <img src="cart-icon.png" alt="Cart Icon"> My Cart (0 items)
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="vegetable1.jpg" alt="Vegetable 1">
+                <p>Fresh Organic Tomato</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="vegetable2.jpg" alt="Vegetable 2">
+                <p>Crispy Lettuce</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="grocery1.jpg" alt="Grocery 1">
+                <p>Whole Grain Rice</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="grocery2.jpg" alt="Grocery 2">
+                <p>Organic Olive Oil</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Hrithik Stores. All rights reserved.</p>
+    </footer>
+</body>
+</html>
