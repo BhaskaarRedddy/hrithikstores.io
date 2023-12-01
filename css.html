@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6666;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #ff6666;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #ffd9b3;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #ff944d;
+        }
+
+        .cart {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        .cart img {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            width: 48%;
+            margin-bottom: 20px;
+            background-color: #e6ffe6;
+            border: 1px solid #66ff66;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product p {
+            color: #333;
+        }
+
+        .product button {
+            background-color: #66ff66;
+            color: #fff;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #4dff4d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffd9b3;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #66ccff;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+    <title>Hrithik Stores</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: #fff;">Welcome to Hrithik Stores</h1>
+    </header>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Vegetables</a>
+        <a href="#">Groceries</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <section class="main-content">
+        <div class="cart">
+            <img src="cart.jpg" alt="Cart Icon"> My Cart (0 items)
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="tomato.jpg" alt="Tomato">
+                <p>Fresh Organic Tomato</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="onion.jpg" alt="Onion">
+                <p>Onion</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="grocery.jpg" alt="Grocery">
+                <p>Grocery</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="olive oil.jpg" alt="Organic Olive Oil">
+                <p>Organic Olive Oil</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="main-content">
+    <p style="color: #333;">Visit us on Google Maps: <a href="https://maps.app.goo.gl/FaPHxTjpZKDs3nXU9" target="_blank" style="color: #ff6666; text-decoration: underline;">View on Google Maps</a></p>
+</section>
+
+
+
+
+    <footer>
+        <p style="margin: -5px;">&copy; 2023 Hrithik Stores. All rights reserved.</p>
+        <p style="margin: -5px;">Designed by Bhaskar</p>
+    </footer>
+</body>
+</html>
