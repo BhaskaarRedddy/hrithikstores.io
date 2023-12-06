@@ -6,6 +6,40 @@
     <style>
         /* Your existing styles remain unchanged */
 
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #ecf0f1;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
         .contact-form {
             max-width: 800px;
             margin: 20px auto;
@@ -18,9 +52,11 @@
         .contact-form label {
             display: block;
             margin-bottom: 8px;
+            color: #333;
         }
 
-        .contact-form input, .contact-form textarea {
+        .contact-form input,
+        .contact-form textarea {
             width: 100%;
             padding: 8px;
             margin-bottom: 16px;
@@ -41,6 +77,16 @@
         .contact-form button:hover {
             background-color: #555;
         }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
     <title>Hrithik Stores</title>
 </head>
@@ -50,7 +96,7 @@
     </header>
 
     <div class="menu">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="#">Vegetables</a>
         <a href="#">Groceries</a>
         <a href="#">Contact</a>
