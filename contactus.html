@@ -21,14 +21,20 @@
             text-align: center;
         }
 
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
         .menu a {
-            color: #333;
             text-decoration: none;
+            color: #333;
+            font-weight: bold;
             padding: 10px;
-            margin: 0 10px;
-            border-radius: 5px;
+            border-radius: 4px;
             background-color: #ecf0f1;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s;
         }
 
         .menu a:hover {
@@ -87,6 +93,14 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Media query for screens with a maximum width of 600 pixels (adjust as needed) */
+        @media only screen and (max-width: 600px) {
+            .menu {
+                flex-direction: column; /* Stack menu items vertically */
+                align-items: center; /* Center items on smaller screens */
+            }
+        }
     </style>
     <title>Hrithik Stores</title>
 </head>
@@ -126,10 +140,6 @@
 
             <button type="submit">Send Message</button>
         </form>
-    </section>
-
-    <section class="main-content">
-        <p>Visit us on Google Maps: <a href="https://maps.app.goo.gl/FaPHxTjpZKDs3nXU9" target="_blank">View on Google Maps</a></p>
     </section>
 
     <section class="main-content">
