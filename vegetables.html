@@ -56,9 +56,9 @@
         }
 
         .product img {
-            max-width: 48%;
+            max-width: 100%;
             height: auto;
-            width: 50%;
+            width: 100%;
         }
 
         .cart {
@@ -79,20 +79,19 @@
             padding: 10px;
             position: fixed;
             bottom: 0;
-            width: 48%;
+            width: 100%; /* Change width to 100% */
         }
 
-        
-        @media only screen and (max-width: 100px) {
+        /* Media query for screens with a maximum width of 600 pixels (adjust as needed) */
+        @media only screen and (max-width: 600px) {
             .menu {
-                flex-direction: column; /* Stack menu items vertically */
-                align-items: center; /* Center items on smaller screens */
+                flex-direction: column;
+                align-items: center;
             }
         }
     </style>
     <title>Hrithik Stores</title>
     <script>
-        
         window.onload = function() {
             window.location.href = "vegetables.html";
         };
@@ -142,7 +141,7 @@
             </div>
 
             <div class="product">
-                <img src="ashirvad attta.jpg" alt="Ashirvad Atta">
+                <img src="ashirvad atta.jpg" alt="Ashirvad Atta">
                 <p>Ashirvad Atta 10KG @ ₹50 </p>
                 <button>Add to Cart</button>
             </div>
