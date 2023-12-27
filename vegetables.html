@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,6 +54,7 @@
         .product {
             width: 48%;
             margin-bottom: 20px;
+            box-sizing: border-box; /* Include padding and border in the width calculation */
         }
 
         .product img {
@@ -87,6 +89,10 @@
                 flex-direction: column;
                 align-items: center;
             }
+
+            .product {
+                width: 100%;
+            }
         }
     </style>
     <title>Hrithik Stores</title>
@@ -96,6 +102,7 @@
         };
     </script>
 </head>
+
 <body>
     <header>
         <h1>Welcome to Hrithik Stores</h1>
@@ -143,7 +150,7 @@
                 <img src="ashirvad attta.jpg" alt="Ashirvad Atta">
                 <p>Ashirvad Atta 10KG @ ₹50 </p>
                 <button>Add to Cart</button>
-            </div>         
+            </div>
         </div>
     </section>
 
@@ -152,4 +159,5 @@
         <p>Designed by Bhaskar</p>
     </footer>
 </body>
+
 </html>
